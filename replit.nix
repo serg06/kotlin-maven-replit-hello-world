@@ -1,5 +1,5 @@
 { pkgs }: {
     deps = [
-        pkgs.openjdk-headless
+        pkgs.cowsay
     ];
 }

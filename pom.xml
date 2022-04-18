@@ -10,6 +10,7 @@
 
     <properties>
         <kotlin.version>1.6.20</kotlin.version>
+        <main.class>HelloKt</main.class>
     </properties>
 
     <dependencies>
@@ -53,7 +54,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>HelloKt</mainClass>
+                            <mainClass>${main.class}</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
@@ -70,7 +71,7 @@
                         <configuration>
                             <archive>
                                 <manifest>
-                                    <mainClass>HelloKt</mainClass>
+                                    <mainClass>${main.class}</mainClass>
                                 </manifest>
                             </archive>
                             <descriptorRefs>

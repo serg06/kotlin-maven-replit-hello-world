@@ -1,5 +1,3 @@
-## Hello, World with Kotlin and Maven
+## Hello World with Kotlin and Maven, works on Replit
 
-For the full write up, please seem my blog [Hello, world with Kotlin and Maven](https://michaelrice.com/2016/08/hello-world-with-kotlin-and-maven/)
-
-
+Updated for 2022.

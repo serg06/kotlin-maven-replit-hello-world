@@ -1,5 +1,8 @@
 { pkgs }: {
     deps = [
-        pkgs.cowsay
+        pkgs.openjdk-headless
+        pkgs.kotlin
+        pkgs.gradle
+        pkgs.maven
     ];
 }
